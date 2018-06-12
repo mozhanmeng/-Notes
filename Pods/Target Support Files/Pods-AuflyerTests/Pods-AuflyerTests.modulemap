@@ -1,0 +1,6 @@
+framework module Pods_AuflyerTests {
+  umbrella header "Pods-AuflyerTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
