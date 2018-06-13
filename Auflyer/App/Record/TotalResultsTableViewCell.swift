@@ -41,7 +41,7 @@ class TotalResultsTableViewCell: UITableViewCell, UITextFieldDelegate {
         moneyEarnedLabel.selectedLineHeight = 2.0
         self.addSubview(moneyEarnedLabel)
 
-        totalprofit = SkyFloatingLabelTextField(frame: CGRect(x:screenWidth * 0.75, y:scrrenHeight * 0.01, width:screenWidth * 0.15, height:UIScreen.main.bounds.size.height * 0.1))
+        totalprofit = SkyFloatingLabelTextField(frame: CGRect(x:screenWidth * 0.7, y:scrrenHeight * 0.01, width:screenWidth * 0.2, height:UIScreen.main.bounds.size.height * 0.1))
         totalprofit.placeholder = "TOTAL"
         totalprofit.title = "TOTAL"
         totalprofit.isUserInteractionEnabled = false

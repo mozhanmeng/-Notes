@@ -98,7 +98,12 @@ extension Double {
         return String(format: "%@ :%.0f","Total",self)
     }
     func toStringWithSymbol() -> String {
-        return String(format: "%.2f$",self)
+        if self.toString().count >= 3{
+            return String(format: "%.0f$",self)
+        }
+        else{
+            return String(format: "%.2f$",self)
+        }
     }
     func toString() -> String {
         return String(format: "%.0f",self)
