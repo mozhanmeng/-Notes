@@ -154,12 +154,11 @@ class TransacationRecordViewPresenter {
             }
             return nil
         })
-        
     }
     
     func distributeDataByDate(data : [TransacationRecord]) -> Void {
         
-        var arrayByDate : NSMutableArray = NSMutableArray()
+        let arrayByDate : NSMutableArray = NSMutableArray()
         numberOfOrderInDate = [Int]()
         
         for transacationRecord in data{
