@@ -95,7 +95,7 @@ extension Double {
         return rint(self) == self
     }
     func toStringWithTotal() -> String {
-        return String(format: "%@ :%.0f","Total",self)
+        return String(format: "%@ :%.2f","Total",self)
     }
     func toStringWithSymbol() -> String {
         if self.toString().count >= 3{

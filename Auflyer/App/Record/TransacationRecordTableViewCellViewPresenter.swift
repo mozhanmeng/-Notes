@@ -263,7 +263,9 @@ class TransacationRecordViewPresenter {
             for item in 0..<range[index]{
                 if let record : TransacationRecord = self.totalData[index][item]{
                     for i in 0..<(record._productNames?.count)!{
-                        if record._priceSellOut![i].isNumber && record._priceBuyIn![i].isNumber{
+                        let characterset = CharacterSet(charactersIn: ".0123456789")
+                        if (record._priceSellOut![i].rangeOfCharacter(from: characterset.inverted) != nil) || (record._priceBuyIn![i].rangeOfCharacter(from: characterset.inverted) != nil) {
+                        }else{
                             profit += record._priceSellOut![i].toDouble()! - record._priceBuyIn![i].toDouble()!
                         }
                     }
