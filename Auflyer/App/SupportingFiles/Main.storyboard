@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="CLN-Jg-hs3">
-    <device id="retina5_5" orientation="portrait">
+    <device id="retina5_9" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -15,7 +15,7 @@
             <objects>
                 <navigationController storyboardIdentifier="rootViewController" id="CLN-Jg-hs3" sceneMemberID="viewController">
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="cc5-eB-gSa">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -35,7 +35,7 @@
                         <viewControllerLayoutGuide type="bottom" id="IyX-iU-Edn"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kt4-cx-WS1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -54,7 +54,7 @@
                 <navigationController id="02x-ts-P0g" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="PB8-DU-G8A"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="79r-hf-mwO">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -71,7 +71,7 @@
                 <navigationController id="MhN-1w-DyK" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="AlN-Cc-8XS"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="zrg-xo-ZzL">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -91,7 +91,7 @@
                         <viewControllerLayoutGuide type="bottom" id="xy4-5m-buh"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="uZR-1m-vwt">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -107,13 +107,13 @@
         <!--Record Detail View Controller-->
         <scene sceneID="Cr6-pY-6iY">
             <objects>
-                <viewController id="8Fm-e0-2Ei" customClass="RecordDetailViewController" customModule="Auflyer" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="RecordDetailViewController" id="8Fm-e0-2Ei" customClass="RecordDetailViewController" customModule="Auflyer" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nm2-EC-bfo"/>
                         <viewControllerLayoutGuide type="bottom" id="gWl-eA-Hcp"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="fR5-I8-0Cr">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -128,7 +128,7 @@
                 <navigationController id="QzV-ML-eCq" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="EWX-Ih-tFq"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="fsO-hb-DFe">
-                        <rect key="frame" x="0.0" y="20" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="44" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <connections>
@@ -148,49 +148,55 @@
                         <viewControllerLayoutGuide type="bottom" id="MUT-1u-qXm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="nla-Aq-zaL">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BSE" translatesAutoresizingMaskIntoConstraints="NO" id="rW5-rT-o8k">
-                                <rect key="frame" x="0.0" y="176.33333333333334" width="207" height="113.00000000000003"/>
+                                <rect key="frame" x="0.0" y="190" width="187.66666666666666" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="rW5-rT-o8k" secondAttribute="height" multiplier="103:56" id="dFs-Ku-tGC"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ZHONGHUAN" translatesAutoresizingMaskIntoConstraints="NO" id="pwG-XF-0yk">
-                                <rect key="frame" x="0.0" y="289.33333333333331" width="207" height="112.33333333333331"/>
+                                <rect key="frame" x="0.0" y="292" width="187.66666666666666" height="102.33333333333331"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="pwG-XF-0yk" secondAttribute="height" multiplier="103:56" id="KGw-sl-UEu"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="PCA" translatesAutoresizingMaskIntoConstraints="NO" id="D6I-Tw-bN5">
-                                <rect key="frame" x="0.0" y="63.999999999999993" width="207" height="112.33333333333331"/>
+                                <rect key="frame" x="0.0" y="88" width="187.66666666666666" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="D6I-Tw-bN5" secondAttribute="height" multiplier="103:56" id="FHl-ei-G7W"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AOL" translatesAutoresizingMaskIntoConstraints="NO" id="K51-61-aLA">
-                                <rect key="frame" x="207" y="288" width="207" height="112.66666666666669"/>
+                                <rect key="frame" x="187.66666666666663" y="291" width="187.33333333333337" height="102"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="K51-61-aLA" secondAttribute="height" multiplier="103:56" id="o4q-xK-NGK"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="EWE" translatesAutoresizingMaskIntoConstraints="NO" id="eex-YC-t89">
-                                <rect key="frame" x="207" y="64" width="207" height="115"/>
+                                <rect key="frame" x="187.66666666666663" y="88" width="187.33333333333337" height="104.33333333333331"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="eex-YC-t89" secondAttribute="height" multiplier="103:56" constant="-3.928571428571388" id="4aW-9Y-0Wd"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AUEXPRESS" translatesAutoresizingMaskIntoConstraints="NO" id="l1E-DE-g0E">
-                                <rect key="frame" x="207" y="179" width="207" height="109"/>
+                                <rect key="frame" x="187.66666666666663" y="192.33333333333334" width="187.33333333333337" height="98.666666666666657"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="l1E-DE-g0E" secondAttribute="height" multiplier="103:56" constant="5.910714285714306" id="EDb-eh-Byu"/>
                                 </constraints>
                             </imageView>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Changjiang" translatesAutoresizingMaskIntoConstraints="NO" id="2w5-WX-rNQ">
-                                <rect key="frame" x="0.0" y="401.66666666666669" width="207" height="112.66666666666669"/>
+                                <rect key="frame" x="0.0" y="394.33333333333331" width="187.66666666666666" height="101.66666666666669"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="2w5-WX-rNQ" secondAttribute="height" multiplier="103:56" id="ffA-ky-6ic"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="AUOD" translatesAutoresizingMaskIntoConstraints="NO" id="G0m-Q2-9oz">
+                                <rect key="frame" x="187.66666666666663" y="393.33333333333331" width="187.33333333333337" height="102"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="G0m-Q2-9oz" secondAttribute="height" multiplier="103:56" id="iWD-bu-A0i"/>
                                 </constraints>
                             </imageView>
                         </subviews>
@@ -207,6 +213,7 @@
                             <constraint firstItem="K51-61-aLA" firstAttribute="top" secondItem="l1E-DE-g0E" secondAttribute="bottom" id="OeJ-0s-5FU"/>
                             <constraint firstItem="2w5-WX-rNQ" firstAttribute="centerX" secondItem="nla-Aq-zaL" secondAttribute="centerX" multiplier="0.5" id="Phf-uc-iJX"/>
                             <constraint firstItem="rW5-rT-o8k" firstAttribute="centerX" secondItem="nla-Aq-zaL" secondAttribute="centerX" multiplier="0.5" id="S4B-YY-gMk"/>
+                            <constraint firstItem="G0m-Q2-9oz" firstAttribute="top" secondItem="K51-61-aLA" secondAttribute="bottom" id="WLm-oo-Ara"/>
                             <constraint firstItem="K51-61-aLA" firstAttribute="width" secondItem="nla-Aq-zaL" secondAttribute="width" multiplier="0.5" id="Ypp-aP-77A"/>
                             <constraint firstItem="l1E-DE-g0E" firstAttribute="top" secondItem="eex-YC-t89" secondAttribute="bottom" id="bj1-4I-OYr"/>
                             <constraint firstItem="D6I-Tw-bN5" firstAttribute="top" secondItem="hNt-PA-X7I" secondAttribute="bottom" id="bti-e3-lpd"/>
@@ -215,6 +222,8 @@
                             <constraint firstItem="eex-YC-t89" firstAttribute="centerX" secondItem="nla-Aq-zaL" secondAttribute="centerX" multiplier="1.5" id="f5x-LZ-95b"/>
                             <constraint firstItem="pwG-XF-0yk" firstAttribute="width" secondItem="nla-Aq-zaL" secondAttribute="width" multiplier="0.5" id="fuk-CS-UeP"/>
                             <constraint firstItem="2w5-WX-rNQ" firstAttribute="width" secondItem="nla-Aq-zaL" secondAttribute="width" multiplier="0.5" id="h8x-2a-G9B"/>
+                            <constraint firstItem="G0m-Q2-9oz" firstAttribute="width" secondItem="nla-Aq-zaL" secondAttribute="width" multiplier="0.5" id="jVb-bO-Mzm"/>
+                            <constraint firstItem="G0m-Q2-9oz" firstAttribute="centerX" secondItem="nla-Aq-zaL" secondAttribute="centerX" multiplier="1.5" id="jn8-t6-n1w"/>
                             <constraint firstItem="pwG-XF-0yk" firstAttribute="top" secondItem="rW5-rT-o8k" secondAttribute="bottom" id="phf-pN-Hsu"/>
                             <constraint firstItem="pwG-XF-0yk" firstAttribute="centerX" secondItem="nla-Aq-zaL" secondAttribute="centerX" multiplier="0.5" id="yTk-e9-gmV"/>
                             <constraint firstItem="eex-YC-t89" firstAttribute="top" secondItem="hNt-PA-X7I" secondAttribute="bottom" id="yfg-4D-zy4"/>
@@ -223,6 +232,7 @@
                     <navigationItem key="navigationItem" id="nTe-qV-XRg"/>
                     <connections>
                         <outlet property="AOLIcon" destination="K51-61-aLA" id="MCd-dZ-zgy"/>
+                        <outlet property="AUODIcon" destination="G0m-Q2-9oz" id="2yT-TP-5yQ"/>
                         <outlet property="AuExpressIcon" destination="l1E-DE-g0E" id="70q-ZJ-SMw"/>
                         <outlet property="BSEIcon" destination="rW5-rT-o8k" id="Ya5-ZG-HB8"/>
                         <outlet property="EWEIcon" destination="eex-YC-t89" id="nOU-RV-fEN"/>
@@ -234,7 +244,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kMV-gH-mdt" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2881" y="451"/>
+            <point key="canvasLocation" x="2879.7101449275365" y="450.81521739130437"/>
         </scene>
         <!--Display Web View Controller-->
         <scene sceneID="ruh-gC-9gP">
@@ -245,7 +255,7 @@
                         <viewControllerLayoutGuide type="bottom" id="g83-nR-LzL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="whz-ww-Gab">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -263,7 +273,7 @@
                         <viewControllerLayoutGuide type="bottom" id="hnc-nv-bXd"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="EIm-oH-KqS">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -286,7 +296,7 @@
                         <viewControllerLayoutGuide type="bottom" id="OwE-wj-A3e"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="L8y-DY-ieH">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -308,7 +318,7 @@
                         <viewControllerLayoutGuide type="bottom" id="ODh-bL-E8x"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="5sX-KD-kcB">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </view>
@@ -341,6 +351,7 @@
     <resources>
         <image name="AOL" width="386" height="192"/>
         <image name="AUEXPRESS" width="386" height="122"/>
+        <image name="AUOD" width="312" height="156"/>
         <image name="BSE" width="836" height="200"/>
         <image name="Changjiang" width="954" height="282"/>
         <image name="EWE" width="454" height="162"/>
